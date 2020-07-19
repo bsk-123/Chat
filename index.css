@@ -38,6 +38,9 @@ body{
     padding: 20px 10px;
     font-size: 25px;
 }
+.head span{
+    cursor: pointer;
+}
 .hi{
     height: 30px;
     width: 50px
@@ -75,14 +78,21 @@ body{
     height: 35px;
     padding: 8px 10px;
     font-size: 15px;
-    border: 2px solid grey;
+    border: 2px solid #DDDDDD;
     border-radius: 8px;
+    cursor: pointer;
 }
-
+.search:focus{
+    border: 2px solid #26A59A;
+}
+.search input:hover{
+    border: 2px solid grey;
+}
 .chats{
     display: flex;
     justify-content: space-between;
     padding: 8px;
+    cursor: pointer;
 }
 .dp{
     height: 50px;
@@ -149,6 +159,10 @@ hr{
     border: 1px transparent;
     background-color: #44C3B8;
     color: white;
+    cursor: pointer;
+}
+.new input:hover{
+    background-color: rgb(42, 113, 116);
 }
 .chead{
     background-color: #26A59A;
@@ -233,8 +247,8 @@ hr{
     border: 2px solid #DDDDDD;
     border-radius: 8px;
 }
-.us input:focus{
-    border-color: #26A59A;
+.us input:hover{
+    border-color: grey;
 }
 .smile{
     height: 18px;
@@ -243,6 +257,13 @@ hr{
     padding: 8px 10px;
     border-radius: 8px;
     background-color: #DDDDDD;
+    cursor: pointer;
+}
+.smile:hover{
+    background-color: grey;
+}
+.send:hover{
+    background-color: #44C3B8;
 }
 .topro{
     height: 100%; width: 30%;background-color: white;
